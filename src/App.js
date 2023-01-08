@@ -1,12 +1,14 @@
 import "./App.css";
+import FormsOptions from "./components/formsOption/FormOptions";
 import Header from "./components/header/header";
-import Button from "./components/UI/button";
+import FirstPage from "./components/infoPages/FirstPage";
 
 function App() {
   return (
-    <div>
+    <div className="mx-16 mt-10 h-screen">
       <Header />
-      <Button />
+      <FormsOptions />
+      <FirstPage />
     </div>
   );
 }
